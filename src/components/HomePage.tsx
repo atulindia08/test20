@@ -4,6 +4,7 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import HomeCarousal from './common/Carousal';
 import DonationCard from './common/DonationCard';
+import jnv1 from '../../public/gal2.jpg'
 
 function HomePage() {
     return (
@@ -15,6 +16,7 @@ function HomePage() {
             }}>
                 <Box sx={{
                     width: '60vw',
+                    backgroundImage: `url(${jnv1.src})`
                    
                 }}></Box>
                 <Box sx={{
