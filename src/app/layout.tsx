@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/common/Navbar";
 import { Box } from "@mui/material";
 import { url } from "inspector";
 import jnv from "../../public/jnv.png"
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
      
-      <body className={inter.className} >
+      <body  >
          
          <Navbar />
          {children}
